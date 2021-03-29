@@ -1,0 +1,25 @@
+{
+    "name": "yara/module-akeneo",
+    "description": "Yara Akeneo Connector",
+    "type": "magento2-module",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "Tiana",
+            "email": "trandriamalala@o2web.ca"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "akeneo/api-php-client": "dev-master",
+        "php-http/guzzle6-adapter": "^2.0"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Yara\\Akeneo\\": ""
+        }
+    }
+}
