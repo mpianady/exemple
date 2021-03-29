@@ -9,7 +9,6 @@
             "email": "trandriamalala@o2web.ca"
         }
     ],
-    "minimum-stability": "stable",
     "require": {
         "akeneo/api-php-client": "dev-master",
         "php-http/guzzle6-adapter": "^2.0"
