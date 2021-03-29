@@ -10,6 +10,7 @@
         }
     ],
     "require": {
+        "magento/framework": ">=100.0.1",
         "akeneo/api-php-client": "dev-master",
         "php-http/guzzle6-adapter": "^2.0"
     },
